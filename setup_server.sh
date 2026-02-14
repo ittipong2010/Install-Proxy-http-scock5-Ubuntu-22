@@ -79,7 +79,7 @@ cat << 'EOF' > /root/add_user.sh
 #!/bin/bash
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ] || [ -z "$4" ]; then
     echo "❌ วิธีใช้: ./add_user.sh [User] [Pass] [IP] [Speed]"
-    echo "👉 ตัวอย่าง: ./add_user.sh somchai 5555 140.99.97.100 10m"
+    echo "👉 ตัวอย่าง: ./add_user.sh somchai 5555 xxx.xx.xx.xxx 10m"
     exit 1
 fi
 
